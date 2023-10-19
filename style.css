@@ -1,0 +1,63 @@
+header {
+    height: 200px;
+    background-color: aqua;
+    box-sizing: border-box;
+    border: 6px solid blue;
+    border-radius: 50px;
+    width: auto;
+    animation-duration: 10s;
+    animation-name: hallo;
+    animation-iteration-count: infinite;
+}
+
+header h1 {
+    color: rgb(132, 0, 255);
+    text-align: center;
+    size: 100px;
+}
+
+header p {
+    text-align: center;
+    gap: 10px;
+    size: 50px;
+    color: #1aff00;
+    width: bold;
+}
+
+@keyframes hallo {
+    1% {
+        background-color: white;
+    }
+
+    50% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: aqua;
+    }
+}
+
+.download-mc {
+    top: 900%;
+    box-sizing: border-box;
+    border: 6px solid rgb(43, 255, 0);
+    border-radius: 50px;
+    height: 300px;
+}
+
+.download-mc a button {
+    border: 6px solid rgb(255, 221, 0);
+    border-radius: 50px;
+    align-items: center;
+    top: 10000000000000000000px;
+    text-align: center;
+    flex: none;
+    background-color: blueviolet;
+}
+
+.download-mc {
+    color: rgb(255, 0, 0);
+    text-align: center;
+    size: 100px;
+}
