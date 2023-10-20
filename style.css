@@ -44,23 +44,28 @@ header p {
     box-sizing: border-box;
     border: 6px solid rgb(43, 255, 0);
     border-radius: 50px;
-    height: 300px;
+    height: 350px;
     gap: 30px;
-    background-color: chocolate;
+    background-color: rgb(210, 105, 30);
 }
 
 .download-mc a button {
-    border: 6px solid rgb(255, 221, 0);
+    border: 6px solid hsl(52, 100%, 50%);
     border-radius: 50px;
     align-items: center;
     top: 10000000000000000000px;
     text-align: center;
     flex: none;
-    background-color: blueviolet;
+    background-color: hsl(271, 76%, 53%);
 }
 
 .download-mc {
-    color: rgb(255, 0, 0);
+    color: hsl(0, 100%, 50%);
     text-align: center;
     size: 100px;
+}
+
+title {
+    color: #00ffff;
+    size-adjust: 10px;
 }
