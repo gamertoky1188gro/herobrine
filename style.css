@@ -69,3 +69,12 @@ title {
     color: #00ffff;
     size-adjust: 10px;
 }
+
+.abcd {
+    margin: auto;
+    border: 10px solid darkred;
+    height: 350px;
+    width: 350x;
+    border-radius: 30px;
+    background-color: darkorchid;
+}
